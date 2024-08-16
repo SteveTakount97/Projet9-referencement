@@ -156,9 +156,7 @@ select {
 button,
 [type=button],
 [type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
+[type=submit] 
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -255,7 +253,7 @@ textarea {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  max-width: 900px;
+  max-width: 1000px;
   height: 40px;
 }
 
@@ -330,7 +328,6 @@ textarea {
 .carousel-inner {
   position: relative;
   width: 100%;
-  max-width: 1440px;
   overflow: hidden;
 }
 .carousel-inner::after {
@@ -479,4 +476,5 @@ textarea {
 .py-3 {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
+}
 }
