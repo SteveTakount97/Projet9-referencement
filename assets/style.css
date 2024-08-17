@@ -1,13 +1,13 @@
 body {
 	max-width: 1920px;
-	box-sizing: border-box;
 	width: 100%;
 	margin: auto;
-	height: auto;
+	min-height: max-content;
 }
 * {
 	font-family: 'Inter';
 	font-style: normal;
+	font-display: swap;
 }
 .top-header {
 	background-color: white;
@@ -53,7 +53,12 @@ body {
 	padding-block: 100px;
 	position: relative;
 }
-
+#carouselExampleIndicators{
+	min-height: 300px;
+}
+#about{
+	min-height: 400px;
+}
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -69,7 +74,7 @@ body {
 	min-height: 400px;
 }
 #gallery{
-	max-height: 400px;
+	max-height: max-content;
 }
  
 .picture {
