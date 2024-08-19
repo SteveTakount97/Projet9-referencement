@@ -2,12 +2,11 @@ body {
 	max-width: 1920px;
 	width: 100%;
 	margin: auto;
-	min-height: max-content;
+    height: auto;
 }
 * {
 	font-family: 'Inter';
 	font-style: normal;
-	font-display: swap;
 }
 .top-header {
 	background-color: white;
