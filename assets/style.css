@@ -75,7 +75,9 @@ body {
 #gallery{
 	max-height: max-content;
 }
- 
+ .visually-hidden{
+	color: #ffff;
+ }
 .picture {
 	flex: 1;
 	margin: 0 20px;
