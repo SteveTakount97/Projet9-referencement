@@ -76,7 +76,8 @@ body {
 	max-height: max-content;
 }
  .visually-hidden{
-	color: #ffff;
+	color:black;
+	opacity: 1 !important;
  }
 .picture {
 	flex: 1;
