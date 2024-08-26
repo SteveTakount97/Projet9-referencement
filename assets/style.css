@@ -79,6 +79,9 @@ body {
 	color:black;
 	opacity: 1 !important;
  }
+ .materiel{
+  font-size: 16px;
+ }
 .picture {
 	flex: 1;
 	margin: 0 20px;
